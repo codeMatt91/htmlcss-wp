@@ -21,9 +21,30 @@
 
 header {
    width: 100%;
-   height: 100px;
-   background-color: violet;
    margin-bottom: 20px;
+}
+
+header img {
+   height: 60px;
+}
+
+/* Istruzioni NAV  */
+
+.navigatore {
+   margin: 40px 0;
+}
+
+ul li {
+   display: inline-block;
+   margin-right: 10px;
+   color: rgb(156, 155, 155);
+   font-family: sans-serif;
+   font-size: 14px;
+}
+
+li a {
+   text-decoration: none;
+   color:  rgb(156, 155, 155);
 }
 
 /* Istruzioni Section  */
