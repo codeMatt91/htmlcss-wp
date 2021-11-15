@@ -60,7 +60,6 @@ li a {
 }
 
 .opacity {
-   position: relative;
    background-color: rgba(0, 0, 0, 0.2);
    height: 100%;
    border-radius: 10px;
@@ -88,29 +87,43 @@ main {
    width: 100%;
    height: 80px;
    margin-bottom: 10px;
-   
 }
-.top-title {
+/* .top-title {
    line-height: 80px;
-}
+} */
 
 .top-title h1 {
+   display: inline-block;
    font-family: sans-serif;
 }
-.top-title span {
+.top-title div {
    color: rgb(156, 155, 155);
 }
 
 .sidebar {
    width: 25%;
-   height: 400px;
-   background-color: rgb(179,205,227);
+   height: 500px;
    float: left;
 }
+.img-sidebar {
+   height: 40%;
+   background-image: url('..//img/img-1.jpg');
+   background-position: center center;
+   background-size: cover;
+}
+.sidebar span {
+   display: inline-block;
+   margin: 20px 0;
+}
+
+.sidebar p {
+   color: rgb(156, 155, 155);
+}
+
 
 .content {
    width: calc(50% - 20px);
-   height: 400px;
+   height: 500px;
    background-color: rgb(179,205,227);
    margin: 0px 10px 10px;
    float: left;
