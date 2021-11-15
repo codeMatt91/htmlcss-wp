@@ -107,9 +107,14 @@ main {
 }
 .img-sidebar {
    height: 40%;
-   background-image: url('..//img/img-1.jpg');
    background-position: center center;
    background-size: cover;
+}
+.img-sidebar-left {
+   background-image: url('..//img/img-1.jpg');
+}
+.img-sidebar-right {
+   background-image: url('..//img/img-3.jpg');
 }
 .sidebar span {
    display: inline-block;
