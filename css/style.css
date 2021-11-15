@@ -52,7 +52,7 @@ li a {
 .spotlight {
    position: relative;
    height: 450px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    border-radius: 10px;
    background-image: url('..//img/banner.jpg');
    background-position: center center;
@@ -87,13 +87,14 @@ main {
    width: 100%;
    height: 80px;
    margin-bottom: 10px;
-}
-/* .top-title {
    line-height: 80px;
-} */
+}
+.top-title {
+   line-height: normal;
+   display: inline-block;
+}
 
 .top-title h1 {
-   display: inline-block;
    font-family: sans-serif;
 }
 .top-title div {
@@ -129,9 +130,22 @@ main {
 .content {
    width: calc(50% - 20px);
    height: 500px;
-   background-color: rgb(179,205,227);
    margin: 0px 10px 10px;
    float: left;
+}
+.img-content {
+   height: 40%;
+   background-position: center center;
+   background-size: cover;
+   background-image: url('..//img/banner-2.jpg');
+}
+
+.content span {
+   display: inline-block;
+   margin: 20px 0;
+}
+.content p {
+   color: rgb(156, 155, 155);
 }
 
 footer {
